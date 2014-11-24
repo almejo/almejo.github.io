@@ -1,0 +1,194 @@
+		<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<!-- CSS Style -->
+	<link rel="stylesheet" type="text/css" href="administrando/css/reset.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="administrando/css/style.css" media="screen" />
+    
+	<!--[if lt IE 7.]> 
+	<script defer type="text/javascript" src="js/pngfix.js"></script> 
+	<![endif]--> 
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->   
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="http://localhost/administrando/images/favicon.ico">
+	
+	<!-- Google Font -->
+	<link href='http://fonts.googleapis.com/css?family=Magra:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>	   
+	<title>Del Ponte - Administración de Edificios</title>
+	
+	<!-- Metatags -->
+	<meta name="description" content="Nosotros ayudamos a organizar su comunidad en t��rminos de gesti��n y financieramente. Generamos un plan de trabajo a su medida." />
+	<meta name="keywords" content="administracion de edificios, administradora, comunidad, gastos comunes, condominios" />
+
+</head>
+
+<body>
+	
+	<div id="site-wrapper">
+	<div id="site-content">
+	
+	<header id="header">
+	<h1 class="logo">Del Ponte Administradora de Edificios</h1>
+
+<p class="top-message">
+Estamos disponibles ante cualquier duda o consulta las 24 horas del día
+<p>
+
+
+<?
+$path = $_SERVER['PHP_SELF'];
+$page = basename($path);
+$page = basename($path, '.php');
+?>
+
+<nav id="menu">
+	
+	<ul class="nav nav-pills">
+     <li <? if($page == 'index') print ' class="active"'; ?>><a href="administrando/index.php.html">Inicio</a></li>
+     <li <? if($page == 'servicios') print ' class="active"'; ?>><a href="administrando/servicios.php.html">Servicios</a></li>
+	<li <? if($page == 'empresa') print ' class="active"'; ?>><a href="administrando/empresa.php.html">Empresa</a></li>
+	<li <? if($page == 'consejos') print ' class="active"'; ?>><a href="administrando/consejos.php.html">Consejos</a></li>
+	<li <? if($page == 'contacto') print ' class="active"'; ?>><a href="administrando/contacto.php.html">Contacto</a></li>
+	<li class="phone"><span>8 662 7220</span></li>
+	<div class="clear"></div>
+	</ul>
+
+</nav>
+
+
+
+	</header>
+	
+	<section id="main-content">
+	<div id="content">
+	<div id="main-image">
+<img src="administrando/images/header-1.jpg" alt="Del Ponte Administradora de Edificios" title="Mejoramos la administraci贸n de tu edificio" />	
+</div>
+
+	<div class="column-1">
+	<div class="column-content">
+	<h1>¿Está pensando en mejorar la administración de su edificio?</h1>
+	<p class="big">Nosotros ayudamos a organizar su comunidad en términos de gestión y financieramente. Generamos un plan de trabajo a su medida y nos aseguramos de cumplir con sus expectativas y con el cumplimiento de las formas legales. Ofrecemos nuestros servicios a comunidades habitacionales, comerciales y de oficinas.</p>
+	</div>
+	</div>
+	
+	
+	<div class="column-2">
+	<div class="column-content">
+	<h2>Te ayudamos a ahorrar</h2>
+	<img src="administrando/images/ahorrar.jpg" alt="Imagen ahorro" title="Te ayudamos a ahorrar" />	
+	<p>Analizamos cada gasto para que sea un cobro justo, generamos economías de escala, para que el costo de su gasto común sea el menor posible.</p>
+	</div>
+	</div>
+	
+	<div class="column-3">
+	<div class="column-content">
+	<h2>Seguridad certificada</h2>
+	<p>Mantenemos a todos nuestros conserjes y guardias con OS-10, garantizando así la seguridad de su comunidad.</p>
+	<img src="administrando/images/os10.jpg" alt="Imagen OS10" title="Seguridad certificada" />	
+	</div>
+	</div>
+	
+	<div class="clear"></div>
+	
+	
+	
+	
+	<div id="contact-action">
+	
+	<div id="content-action-left">
+	<div class="image">
+	<img src="administrando/images/foto-soledad.jpg" alt="Foto de Soledad Catalán" title="Soledad Catalán" />
+	</div>
+	
+	<p class="handwrite">
+	Trabajamos para que vivas seguro y no gastes dinero de más.
+	</p>
+	<p>Soledad Catalán - Gerente General</p>
+	</div>
+	
+	<div id="content-action-right">
+	<a href="administrando/contacto.php.html" class="action-button" title="Llámanos y responderemos tus dudas">Contáctanos</a>	
+	</div>
+	
+	<div class="clear"></div>
+	
+	</div>
+	<div id="main-message">
+<strong>Administradora Del Ponte</strong> - Acreditados en el Registro Nacional de Administradores
+</div>
+	
+	
+	<div id="buildings-content">
+	<div class="column-1">
+	<div class="column-content">
+	<h2>Algunos edificios bajo nuestra administración &rarr;</h2>
+	</div>
+	</div>
+	
+	
+	<div class="column-2">
+	<div class="column-content">
+	<div class="building-info">
+	<div class="image">
+	<img src="administrando/images/edificio-1.jpg" alt="Imagen Edificio" title="Edificio 1" />
+	</div>
+	<p><strong>Edificio las Terrazas de Providencia</strong> <br/>Av. Providencia #2251 - Providencia </p>
+	</div>
+	</div>
+	</div>
+	
+	<div class="column-3">
+	<div class="column-content">
+	<div class="building-info">
+	<div class="image">
+	<img src="administrando/images/edificio-2.jpg" alt="Imagen Edificio" title="Edificio 1" />
+	</div>
+	<p><strong>Edificio Lota</strong> <br/> Lota #2782 - Providencia</p>
+	</div>	
+	</div>
+	</div>
+	
+	<div class="clear"></div>
+	</div>
+	
+	
+	</div>
+	</section>
+	
+	<table>
+<tr>
+<td><a href="http://www.solenflor.cl"><img src="administrando/images/solenflor.png" border="no"/></td>
+<td><a href="http://www.renuevatepintando.cl"><img src="administrando/images/renuevatepintando.png" border="no"/></td>
+</tr>
+</table>
+	<footer id="footer">
+	11 de Septiembre 2260, Oficina 32 - Providencia, Santiago, Región Metropolitana - Teléfonos: 02 232 2639 - 9 8 662 7220
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30141669-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</footer>
+	
+	</div>
+	</div>
+
+</body>
+</html>

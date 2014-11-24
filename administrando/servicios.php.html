@@ -1,0 +1,184 @@
+		<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<!-- CSS Style -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    
+	<!--[if lt IE 7.]> 
+	<script defer type="text/javascript" src="js/pngfix.js"></script> 
+	<![endif]--> 
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->   
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="http://localhost/administrando/images/favicon.ico">
+	
+	<!-- Google Font -->
+	<link href='http://fonts.googleapis.com/css?family=Magra:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>	   
+	<title>Servicios | Del Ponte - Administraci贸n de Edificios</title>
+	
+	<!-- Metatags -->
+	<meta name="description" content="Nosotros ayudamos a organizar su comunidad en términos de gestión y financieramente. Generamos un plan de trabajo a su medida." />
+	<meta name="keywords" content="administracion de edificios, administradora, comunidad, gastos comunes, condominios" />
+
+</head>
+
+<body>
+	
+	<div id="site-wrapper">
+	<div id="site-content">
+	
+	<header id="header">
+	<h1 class="logo">Del Ponte Administradora de Edificios</h1>
+
+<p class="top-message">
+Estamos disponibles ante cualquier duda o consulta las 24 horas del d铆a
+<p>
+
+
+<?
+$path = $_SERVER['PHP_SELF'];
+$page = basename($path);
+$page = basename($path, '.php');
+?>
+
+<nav id="menu">
+	
+	<ul class="nav nav-pills">
+     <li <? if($page == 'index') print ' class="active"'; ?>><a href="index.php.html">Inicio</a></li>
+     <li <? if($page == 'servicios') print ' class="active"'; ?>><a href="servicios.php.html">Servicios</a></li>
+	<li <? if($page == 'empresa') print ' class="active"'; ?>><a href="empresa.php.html">Empresa</a></li>
+	<li <? if($page == 'consejos') print ' class="active"'; ?>><a href="consejos.php.html">Consejos</a></li>
+	<li <? if($page == 'contacto') print ' class="active"'; ?>><a href="contacto.php.html">Contacto</a></li>
+	<li class="phone"><span>8 662 7220</span></li>
+	<div class="clear"></div>
+	</ul>
+
+</nav>
+
+
+
+	</header>
+	
+	<section id="main-content">
+	<div id="content">
+	<div id="main-image">
+<img src="images/header-2.jpg" alt="Del Ponte Administradora de Edificios" title="Mejoramos la administraci璐竛 de tu edificio" />	
+</div>
+
+	<div class="column-1">
+	<div class="column-content">
+	<h1>驴Por qu茅 utilizar nuestros servicios?</h1>
+	<p class="big">La administraci贸n de edificios es un proceso complicado en muchos aspectos, ya sea humanos, jur铆dicos, pr谩cticos y es necesario la ayuda profesional para llevarlos todos a  buen t茅rmino.<br/><br/>
+En Del Ponte nos aseguramos que cada proceso tenga la asistencia necesaria y completa tantos en los asuntos legales, financieros y generales.</p>
+	</div>
+	</div>
+	
+	
+	<div class="column-2">
+	<div class="column-content">
+	<h2>Nuestros servicios</h2>
+	<ul class="check-list">
+	<li>Administraci贸n de edificios comerciales y residenciales</li>
+	<li>Administraci贸n de edificios de oficinas</li>
+	<li>Administraci贸n de comunidades</li>
+	<li>Administraci贸n de condominios</li>
+	</ul>
+	</div>
+	</div>
+	
+	<div class="column-3">
+	<div class="column-content">
+	<h2>Testimonios</h2>
+	<p>Mi nombre es <strong>Fernanda Ortuzar</strong> y soy copropietaria de la comunidad edificio Lota. 
+	<br/><br/>
+La empresa administradora de edificios del Ponte,  ha solucionado nuestros problemas de gesti贸n que la antigua administraci贸n no fue capaz de realizar. En conjunto con el comit茅, el d铆a de hoy,  todo se ha hecho mas f谩cil y seguro.</p>
+	</div>
+	</div>
+	
+	<div class="clear"></div>
+	
+	
+	
+	
+	<div id="contact-action">
+	
+	<h3>Contamos con el apoyo de profesionales id贸neos para todos los servicios que una comunidad requiere</h3>
+	<p>Asesor铆as legales para consultas, constructores, g谩sfiter o el茅ctricos entre otros. Todo ello a su entera disposici贸n y en conjunto con nuestra experiencia podemos hacer de su edificio un lugar mas seguro. </p>		
+	
+	</div>
+	
+	
+	
+	<div id="buildings-content">
+	<div class="column-1">
+	<div class="column-content">
+	<h2>Algunos edificios bajo nuestra administraci贸n &rarr;</h2>
+	</div>
+	</div>
+	
+	
+	<div class="column-2">
+	<div class="column-content">
+	<div class="building-info">
+	<div class="image">
+	<img src="images/edificio-1.jpg" alt="Edificio Las Terrazas de Providencia" title="Edificio Las Terrazas de Providencia" />
+	</div>
+	<p><strong>Edificio las Terrazas de Providencia</strong> <br/>Av. Providencia #2251 - Providencia </p>
+	</div>
+	</div>
+	</div>
+	
+	<div class="column-3">
+	<div class="column-content">
+	<div class="building-info">
+	<div class="image">
+	<img src="images/edificio-2.jpg" alt="Edificio Lota" title="Edificio Lota" />
+	</div>
+	<p><strong>Edificio Lota</strong> <br/> Lota #2782 - Providencia </p>
+	</div>	
+	</div>
+	</div>
+		
+	<div class="clear"></div>
+	</div>
+	
+	
+	</div>
+	</section>
+	
+	<table>
+<tr>
+<td><a href="http://www.solenflor.cl"><img src="images/solenflor.png" border="no"/></td>
+<td><a href="http://www.renuevatepintando.cl"><img src="images/renuevatepintando.png" border="no"/></td>
+</tr>
+</table>
+	<footer id="footer">
+	11 de Septiembre 2260, Oficina 32 - Providencia, Santiago, Regi贸n Metropolitana - Tel茅fonos: 02 232 2639 - 9 8 662 7220
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30141669-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</footer>
+	
+	</div>
+	</div>
+
+</body>
+</html>
